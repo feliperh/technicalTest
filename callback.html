@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsforce/1.7.0/jsforce.min.js"></script>
+    <script>
+        jsforce.browser.init({
+            clientId: "3MVG9Nk1FpUrSQHd5edLBI.w7sT_kIYKWarkFMmIeUk4lO_NL2BCwJOV5DfoyN4am.jm.RuEfReTCiBi47BrY",
+            redirectUri: "https://html-callbacklead.herokuapp.com/",
+        });
+        jsforce.browser.on('connect', function(conn) {
+            window.close();
+        });
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
